@@ -1,12 +1,36 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
 }
 
+.section {
+  height: 20vh;
+  padding: 2vh;
+  margin: 2vw;
+  border-radius: 20px;
+  border: .5px solid #ccc;
+}
+
+.section h1{
+  color: var(--preto);
+}
+
+section{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+}
+
+.quadrado{
+  height: 100px;
+  width: 100px;
+  color: red;
+}

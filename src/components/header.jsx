@@ -7,9 +7,6 @@ export default function Header() {
       <header>
         <h1>Libs Lab</h1>
       </header>
-      <div className="color-button">
-        <img src={icon} alt="" />
-      </div>
     </div>
   );
 }
